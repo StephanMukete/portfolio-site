@@ -294,4 +294,14 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  h1, h2, h3 {
+    margin: 0%;
+    font-weight: 300; }
+    h1.lg-heading, h2.lg-heading, h3.lg-heading {
+      font-size: 4rem; }
+    h1.sm-heading, h2.sm-heading, h3.sm-heading {
+      margin-bottom: 0.5rem;
+      padding: 0.1rem 0.2rem; }
+  .boxes div {
+    padding: 0.1rem 0.1rem; } }

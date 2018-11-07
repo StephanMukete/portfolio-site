@@ -73,4 +73,24 @@
     .projects {
         grid-template-columns: 1fr;
     }
+
+  
+    h1, h2, h3{
+        margin: 0%;
+        font-weight: 300;
+    
+        &.lg-heading {
+            font-size: 4rem;
+        }
+    
+        &.sm-heading{
+            margin-bottom: 0.5rem;
+            padding: 0.1rem 0.2rem;
+        }
+    }
+    .boxes {
+        div {
+            padding: 0.1rem 0.1rem;
+        }
+    }
 }
