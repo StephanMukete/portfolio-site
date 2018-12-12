@@ -295,6 +295,9 @@ main {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; }
+    .projects p {
+      font-size: 0.8rem;
+      font-weight: 200; }
   h1, h2, h3 {
     margin: 0%;
     font-weight: 300; }
